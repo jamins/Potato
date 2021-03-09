@@ -35,6 +35,7 @@ namespace PotatoApi
             services.AddControllers();
             services.AddControllersWithViews();
             services.AddSingleton<PotatoServices>();
+            services.AddSingleton<CroppedPotatoServices>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

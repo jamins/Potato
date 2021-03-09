@@ -6,10 +6,9 @@ using Microsoft.AspNetCore.Http;
 
 namespace PotatoApi.Models
 {
-    public class PotatoViewModel
+    public class CroppedPotatoViewModel
     {
         public string Name { get; set; }
-        public IFormFile Img{ get; set; }
-        public bool IsPotato { get; set; }
+        public IFormFile Img { get; set; }
     }
 }

@@ -9,6 +9,7 @@ namespace PotatoApi.Models
 
     {
         public string PotatosCollectionName { get; set; }
+        public string CroppedPotatoCollectionName { get; set; }
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }
     }
@@ -16,6 +17,7 @@ namespace PotatoApi.Models
     public interface IPotatoDatabaseSettings
     {
         string PotatosCollectionName { get; set; }
+        string CroppedPotatoCollectionName { get; set; }
         string ConnectionString { get; set; }
         string DatabaseName { get; set; }
     }

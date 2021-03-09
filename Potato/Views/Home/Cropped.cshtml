@@ -1,0 +1,9 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Добавление Фрагментов";
+}
+<h3>Выберите файл для загрузки</h3>
+<form asp-action="CreateCropped" asp-controller="Home" method="POST" enctype="multipart/form-data">
+    <input type="file" name="Img" /><br>
+    <input type="submit" value="Загрузить" /><br>
+</form>
